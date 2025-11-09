@@ -5,8 +5,10 @@ default_language = "en"
 theme = "hermit_zola"
 output_dir = "public"
 compile_sass = true
-highlight_code = true
 build_search_index = true
+
+[markdown]
+highlight_code = true
 
 [extra]
 home_subtitle = "Better software, together."
